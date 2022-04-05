@@ -1,0 +1,95 @@
+.content {
+    padding: 50px;
+
+    h1.alumni-title {
+        align-items: center;
+        margin-left: -85px;
+    }
+
+    p.alumni-words {
+        margin-left: 70px;
+        text-indent: 5%;
+        text-align: center;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+
+    .alumni-image {
+        width: 1000px;
+        margin-left: 17%;
+        margin-top: 40px;
+    }
+
+    .red-area {
+        height: 400px;
+        background-color: #8f1b13;
+        margin-top: 50px;
+
+        .support-title {
+            color: #fff;
+            padding: 20px;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        .support-options {
+            display: flex;
+
+            .option {
+                color: #fff;
+                height: 200px;
+                width: 200px;
+                margin-right: 60px;
+                margin-left: 120px;
+                font-size: 25px;
+                border: 3px solid white;
+                padding: 7px;
+                padding-top: 20px;
+                text-align: center;
+                font-family:Arial, Helvetica, sans-serif;
+            }
+        }
+    }
+
+    .grey-area {
+        height: 300px;
+        width: 50%;
+        background-color: #dbdbdb;
+        margin-top: 45px;
+        margin-left: 5px;
+        position: relative;
+
+        .help-students {
+            padding: 20px;
+            color:#8f1b13;
+            font-family:Arial, Helvetica, sans-serif;
+           
+        }
+
+        .crisis-words {
+            margin-left: 15px;
+            margin-top: 0;
+            padding: 5px;
+        }
+
+        .support {
+            font-size: 20px;
+            font-family:Arial, Helvetica, sans-serif;
+            background-color: #8f1b13;
+            width:max-content;
+            padding: 10px;
+            border-radius: 30px;
+            margin-top: 30px;
+            margin-left: 10px;
+            color: #fff;
+        }
+
+    }
+    .grad-image {
+        margin-top: -300px;
+        height: 325px;
+        width: 550px;
+        float: right;
+  
+       
+    
+}
+}

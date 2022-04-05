@@ -1,0 +1,161 @@
+.content {
+    //background-color: palegoldenrod;
+    padding: 50px;
+
+    h1 {
+        padding-left: 35%;
+        font-size: 40px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+
+    .explore-IUPUI {
+        background-color: #8f1b13;
+        color: #FFF;
+        border-radius: 50px;
+        width: 150px;
+        height: 40px;
+        padding-top: 10px;
+        padding-left: 13px;
+        font-family:Arial, Helvetica, sans-serif;
+        margin-left: 45%;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+    .images {
+        display: flex;
+        justify-content: space-between;
+        .image{
+            img {
+                width: 450px;
+                height: 350px;
+                margin-bottom: 100px;
+
+            }
+        }
+    }
+
+    .getToKnow-IUPUI {
+        width: 100%;
+        position: relative;
+        margin-bottom: 50px;
+
+        img {
+            left: 50%;
+        }
+
+        .title {
+            position: absolute;
+            top: 63px;
+            left: 750px;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+        .student-count {
+            position: absolute;
+            top: 90px;
+            font-size: 45px;
+            font-family:Arial, Helvetica, sans-serif;
+            left: 750px;
+            color:#8f1b13;
+            font-weight: bold;
+        }
+
+        .student-title {
+            position: absolute;
+            top: 145px;
+            font-family:Arial, Helvetica, sans-serif;
+            left: 750px;
+            font-style: italic;
+        }
+
+        .undergradPercent {
+            position: absolute;
+            top: 180px;
+            left: 750px;
+            font-size: 45px;
+            font-family:Arial, Helvetica, sans-serif;
+            color:#8f1b13;
+            font-weight: bold;
+        }
+
+        .undergradTitle {
+            position: absolute;
+            top: 235px;
+            left: 750px;
+            font-style: italic;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        .programNumber {
+            position: absolute;
+            top: 270px;
+            left: 750px;
+            font-size: 45px;
+            font-family:Arial, Helvetica, sans-serif;
+            color:#8f1b13;
+            font-weight: bold;
+        }
+
+        .programTitle {
+            position: absolute;
+            top: 325px;
+            left: 750px;
+            font-style: italic;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+    }
+
+    .ready {
+       
+        .readyTitle {
+            font-family:Arial, Helvetica, sans-serif;
+            color:#8f1b13;
+            font-size: 40px;
+            margin-bottom: 25px;
+            margin-left: 35%;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-evenly;
+            margin-bottom: 30px;
+
+            .request {
+                color: #fff;
+                background-color: #8f1b13;
+                width: 160px;
+                height: 40px;
+                border-radius: 40px;
+                padding-left: 10px;
+                padding-top: 10px;
+                font-family:Arial, Helvetica, sans-serif;
+            }
+    
+            .plan {
+                color: #fff;
+                background-color: #8f1b13;
+                width: 155px;
+                height: 40px;
+                border-radius: 40px;
+                padding-left: 40px;
+                padding-top: 10px;
+                font-family:Arial, Helvetica, sans-serif;
+            }
+    
+            .learn {
+                color: #fff;
+                background-color: #8f1b13;
+                width: 160px;
+                height: 40px;
+                border-radius: 40px;
+                padding-left: 12px;
+                padding-top: 10px;
+                font-family:Arial, Helvetica, sans-serif;
+            }
+        }
+       
+    }
+  
+}

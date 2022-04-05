@@ -1,0 +1,526 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#app {
+  min-height: calc(100vh - 100px);
+  width: 100%;
+}
+
+.hero {
+  height: 400px;
+  background-image: url(../images/hero.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  height: 50px;
+  width: 100%;
+  background-color: #8f1b13;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+nav a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  height: 50px;
+  width: 100%;
+  background-color: #8f1b13;
+  color: #FFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+  padding: 50px;
+}
+.content h1 {
+  padding-left: 35%;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.content .explore-IUPUI {
+  background-color: #8f1b13;
+  color: #FFF;
+  border-radius: 50px;
+  width: 150px;
+  height: 40px;
+  padding-top: 10px;
+  padding-left: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 45%;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.content .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.content .images .image img {
+  width: 450px;
+  height: 350px;
+  margin-bottom: 100px;
+}
+.content .getToKnow-IUPUI {
+  width: 100%;
+  position: relative;
+  margin-bottom: 50px;
+}
+.content .getToKnow-IUPUI img {
+  left: 50%;
+}
+.content .getToKnow-IUPUI .title {
+  position: absolute;
+  top: 63px;
+  left: 750px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.content .getToKnow-IUPUI .student-count {
+  position: absolute;
+  top: 90px;
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  left: 750px;
+  color: #8f1b13;
+  font-weight: bold;
+}
+.content .getToKnow-IUPUI .student-title {
+  position: absolute;
+  top: 145px;
+  font-family: Arial, Helvetica, sans-serif;
+  left: 750px;
+  font-style: italic;
+}
+.content .getToKnow-IUPUI .undergradPercent {
+  position: absolute;
+  top: 180px;
+  left: 750px;
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #8f1b13;
+  font-weight: bold;
+}
+.content .getToKnow-IUPUI .undergradTitle {
+  position: absolute;
+  top: 235px;
+  left: 750px;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.content .getToKnow-IUPUI .programNumber {
+  position: absolute;
+  top: 270px;
+  left: 750px;
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #8f1b13;
+  font-weight: bold;
+}
+.content .getToKnow-IUPUI .programTitle {
+  position: absolute;
+  top: 325px;
+  left: 750px;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.content .ready .readyTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #8f1b13;
+  font-size: 40px;
+  margin-bottom: 25px;
+  margin-left: 35%;
+}
+.content .ready .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+.content .ready .buttons .request {
+  color: #fff;
+  background-color: #8f1b13;
+  width: 160px;
+  height: 40px;
+  border-radius: 40px;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.content .ready .buttons .plan {
+  color: #fff;
+  background-color: #8f1b13;
+  width: 155px;
+  height: 40px;
+  border-radius: 40px;
+  padding-left: 40px;
+  padding-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.content .ready .buttons .learn {
+  color: #fff;
+  background-color: #8f1b13;
+  width: 160px;
+  height: 40px;
+  border-radius: 40px;
+  padding-left: 12px;
+  padding-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+  padding: 50px;
+}
+.content p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-left: 27%;
+  margin-top: 40px;
+}
+.content .jaguar {
+  background-color: #8f1b13;
+  color: white;
+  width: 250px;
+  height: 45px;
+  padding-top: 13px;
+  padding-left: 30px;
+  border-radius: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 40%;
+  margin-top: 40px;
+  font-size: 17px;
+}
+.content .applicants {
+  height: 550px;
+  width: 100%;
+  background-color: #8f1b13;
+  margin-top: 40px;
+  position: relative;
+}
+.content .applicants .row1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.content .applicants .row1 .applicant {
+  height: 200px;
+  width: 300px;
+  margin-top: 50px;
+  border: 4px solid white;
+  color: #FFF;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  padding-left: 30px;
+  font-weight: bold;
+  padding-top: 25px;
+}
+.content .applicants .row1 .applicant p {
+  font-size: 18px;
+  padding: 5px;
+  font-weight: 200;
+  margin-left: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 7px;
+}
+.content .applicants .row2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.content .applicants .row2 .applicant {
+  height: 200px;
+  width: 300px;
+  margin-top: 50px;
+  border: 4px solid white;
+  color: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  font-size: 25px;
+  padding-left: 30px;
+  font-weight: bold;
+  padding-top: 25px;
+}
+.content .applicants .row2 .applicant p {
+  font-size: 18px;
+  font-weight: 200;
+  padding: 5px;
+  margin-left: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 7px;
+}
+.content .image-rows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.content .image-rows .iupui-images img {
+  margin-top: 40px;
+  width: 400px;
+  height: 300px;
+}
+
+.content {
+  padding: 50px;
+}
+.content p.academics-paragraph {
+  line-height: 30px;
+}
+.content .academic-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 40px;
+}
+.content .academic-buttons .explore {
+  background-color: #8f1b13;
+  width: 350px;
+  height: 45px;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 65px;
+  padding-top: 10px;
+}
+.content .academic-buttons .learn-programs {
+  background-color: #8f1b13;
+  width: 350px;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 45px;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+.content .red-space {
+  height: 300px;
+  background-color: #8f1b13;
+  margin-top: 40px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.content .red-space .block1 {
+  background-color: #63130d;
+  height: 200px;
+  width: 400px;
+  margin-top: 50px;
+}
+.content .red-space .block1 .block1-title {
+  color: #fff;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 40%;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.content .red-space .block1 .block1-words {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 18%;
+}
+.content .red-space .block2 {
+  background-color: #63130d;
+  height: 200px;
+  width: 400px;
+  margin-top: 50px;
+}
+.content .red-space .block2 .block2-title {
+  color: #fff;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 37%;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.content .red-space .block2 .block2-words {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 30%;
+}
+.content .academics-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 0%;
+  margin-top: 40px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.content .academics-image img {
+  width: 600px;
+}
+.content .content2 .content2-title {
+  margin-top: 30px;
+}
+.content .content2 .content2-words {
+  margin-left: 0px;
+  line-height: 30px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #8f1b13;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.content {
+  padding: 50px;
+}
+.content h1.alumni-title {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: -85px;
+}
+.content p.alumni-words {
+  margin-left: 70px;
+  text-indent: 5%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.content .alumni-image {
+  width: 1000px;
+  margin-left: 17%;
+  margin-top: 40px;
+}
+.content .red-area {
+  height: 400px;
+  background-color: #8f1b13;
+  margin-top: 50px;
+}
+.content .red-area .support-title {
+  color: #fff;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.content .red-area .support-options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.content .red-area .support-options .option {
+  color: #fff;
+  height: 200px;
+  width: 200px;
+  margin-right: 60px;
+  margin-left: 120px;
+  font-size: 25px;
+  border: 3px solid white;
+  padding: 7px;
+  padding-top: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.content .grey-area {
+  height: 300px;
+  width: 50%;
+  background-color: #dbdbdb;
+  margin-top: 45px;
+  margin-left: 5px;
+  position: relative;
+}
+.content .grey-area .help-students {
+  padding: 20px;
+  color: #8f1b13;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.content .grey-area .crisis-words {
+  margin-left: 15px;
+  margin-top: 0;
+  padding: 5px;
+}
+.content .grey-area .support {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #8f1b13;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 10px;
+  border-radius: 30px;
+  margin-top: 30px;
+  margin-left: 10px;
+  color: #fff;
+}
+.content .grad-image {
+  margin-top: -300px;
+  height: 325px;
+  width: 550px;
+  float: right;
+}
